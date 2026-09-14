@@ -98,26 +98,29 @@ Some of the major behaviors included:
 
 ```mermaid
 flowchart TD
-    A[Start] --> B[Drive Up Ramp]
-    B --> C[Align to Tree]
-    C --> D[Search for Fruit]
-    D --> E[Navigate to Fruit]
-    E --> F[Harvest Fruit]
+    flowchart TD
+    A[Start / IDLE] --> B[RAMP_DRIVE]
+    B --> C[SEARCHING]
+    C --> D[APPROACHING]
+    D --> E[HARVESTING]
+    E --> F[FRUIT_NAVIGATION]
 
-    F --> G{More Fruit Needed?}
+    F --> G{More Fruit to Collect?}
+
     G -- Yes --> H[Reposition Around Tree]
-    H --> D
-    G -- No --> I[Find Wall]
-    I --> J[Drive to Wall]
-    J --> K[Find / Follow Line]
-    K --> L[Identify Basket via AprilTag]
-    L --> M[Deposit Fruit]
-    M --> N[Cycle Complete]
+    H --> C
+
+    G -- No --> I[AVOID_DANGER]
+    I --> J[FIND_WALL]
+    J --> K[FIND_LINE]
+    K --> L[DELIVERING]
+    L --> M[DEPOSIT_RESET]
+    M --> C
 
     classDef process fill:#f8f9fa,stroke:#333,stroke-width:1.5px,color:#111;
     classDef decision fill:#fff4cc,stroke:#333,stroke-width:1.5px,color:#111;
 
-    class A,B,C,D,E,F,H,I,J,K,L,M,N process;
+    class A,B,C,D,E,F,H,I,J,K,L,M process;
     class G decision;
 ```
 
@@ -203,7 +206,7 @@ However, the final robot could consistently complete meaningful portions of the 
 
 ![Robot Field Test](images/field-test.jpg)
 
-*Robot operating on the final RBE 1001 field.*
+*Robot with two collected fruit collecting one more on the final RBE 1001 field.*
 
 ---
 
@@ -273,11 +276,11 @@ The project significantly improved my understanding of PID control, finite-state
 
 The original project source code is available here:
 
-[View the RBE 1001 robot code](https://github.com/cjhickson647/billy-rbe1001)
+[View the RBE 1001 robot code](https://github.com/cjhickson647/billy-rbe1001/src/autonomous_controller.py)
 
 The final autonomous program is primarily contained in:
 
-`src/billy_not_jank.py`
+`src/autonomous_controller.py`
 
 ---
 
