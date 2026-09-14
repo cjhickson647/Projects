@@ -94,9 +94,34 @@ Some of the major behaviors included:
 - Depositing collected fruit
 - Resetting for another harvesting cycle
 
-![Autonomous State Machine](images/state-machine.png)
+<!-- ![Autonomous State Machine](images/state-machine.png) -->
+## Autonomous State Transition Diagram
 
-*High-level autonomous state-machine flow.*
+```mermaid
+flowchart TD
+    A[Start] --> B[Drive Up Ramp]
+    B --> C[Align to Tree]
+    C --> D[Search for Fruit]
+    D --> E[Navigate to Fruit]
+    E --> F[Harvest Fruit]
+
+    F --> G{More Fruit Needed?}
+    G -- Yes --> H[Reposition Around Tree]
+    H --> D
+    G -- No --> I[Find Wall]
+    I --> J[Drive to Wall]
+    J --> K[Find / Follow Line]
+    K --> L[Identify Basket via AprilTag]
+    L --> M[Deposit Fruit]
+    M --> N[Cycle Complete]
+
+    classDef process fill:#f8f9fa,stroke:#333,stroke-width:1.5px,color:#111;
+    classDef decision fill:#fff4cc,stroke:#333,stroke-width:1.5px,color:#111;
+
+    class A,B,C,D,E,F,H,I,J,K,L,M,N process;
+    class G decision;
+
+<!-- *High-level autonomous state-machine flow.* -->
 
 ---
 
