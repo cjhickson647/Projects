@@ -62,7 +62,7 @@ The tracker structure relies heavily on large FDM-printed components.
 
 Before I could begin printing the main parts, my Bambu Lab P1S developed a motor-control-board failure. I replaced the control board, installed additional heatsinking, and secured the repair before continuing the project.
 
-![P1S MC Board](images/board.jpg)
+![P1S MC Board](images/mcboard.jpg)
 
 *Newly replaced motor control board for the P1S.*
 
@@ -76,9 +76,10 @@ The right ascension ring was printed in multiple sections and assembled around t
 
 I also designed several small custom parts in **Onshape** to improve the physical setup and assist with manual polar alignment.
 
-![Custom Onshape Part](images/custom-part-onshape.png)
+![Custom Onshape Part](images/onshape-render.png)
+![Printed Product](images/support.jpg)
 
-*Example of a custom component designed in Onshape.*
+*Example of a custom component designed in Onshape and then printed.*
 
 ---
 
@@ -161,7 +162,7 @@ The completed system successfully tracked the sky during long-exposure astrophot
 
 I captured and stacked more than **20 minutes of tracked astronomical exposure data**, demonstrating that the system could maintain usable tracking over extended imaging sessions.
 
-![Tracked Astrophotography Result](images/tracked-result.jpg)
+![Tracked Astrophotography Result](images/first_light.jpeg)
 
 *Astrophotography result captured using the completed tracker.*
 
