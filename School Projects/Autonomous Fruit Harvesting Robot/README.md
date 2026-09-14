@@ -94,7 +94,6 @@ Some of the major behaviors included:
 - Depositing collected fruit
 - Resetting for another harvesting cycle
 
-<!-- ![Autonomous State Machine](images/state-machine.png) -->
 ## Autonomous State Transition Diagram
 
 ```mermaid
@@ -120,8 +119,6 @@ flowchart TD
 
     class A,B,C,D,E,F,H,I,J,K,L,M,N process;
     class G decision;
-
-<!-- *High-level autonomous state-machine flow.* -->
 
 ---
 
