@@ -53,7 +53,7 @@ The end effector used two interlocking claws designed to close around fruit of d
 
 The original claw mechanism relied heavily on gears, but repeated gear skipping caused reliability problems. The team redesigned the mechanism around sprockets and chain while retaining gears to synchronize the two sides.
 
-![Fruit Grabber](images/grabber.jpg)
+![Fruit Grabber](images/grabber.png)
 
 ### Elevator
 
