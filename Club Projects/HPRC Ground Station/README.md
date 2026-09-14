@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is part of the Experimental Non-Propulsive (ENP) division of the Worcester Polytechnic Institute High Power Rocketry Club.
+This project is part of the Electronics and Programming (EnP) division of the Worcester Polytechnic Institute High Power Rocketry Club.
 
 I joined Ground Station in August 2025 and worked on ground-station hardware, electronics, RF/video testing, field deployment, and support for a motorized antenna-tracking system. I also contributed to HPRC electronics work through PCB assembly, rework, wiring-harness fabrication, and Altium-based board modifications.
 
@@ -11,7 +11,7 @@ For the 2026–2027 competition cycle, I became **Ground Station Lead** and bega
 The current goal is to create a ground station capable of receiving both live video and rocket telemetry through an integrated RF link while also supporting antenna tracking, field deployment, and future higher-altitude missions.
 
 **Organization:** WPI High Power Rocketry Club  
-**Division:** Experimental Non-Propulsive (ENP)  
+**Division:** Electronics and Programming (EnP)  
 **Role:** Ground Station Lead / Electronics Member  
 **Project Dates:** August 2025 – Present  
 **Competition:** 2027 International Rocket Engineering Competition
