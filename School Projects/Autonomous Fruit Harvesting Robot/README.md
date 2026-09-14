@@ -61,7 +61,7 @@ An elevator allowed the grabber to reach fruit at multiple heights.
 
 The mechanism eventually used two motors driving rack-and-pinion systems. Mechanical stops were also added to prevent the elevator from overextending and damaging itself.
 
-![Elevator](images/elevator.jpg)
+![Elevator](images/IMG_8665.jpg)
 
 ### Hopper
 
@@ -119,6 +119,7 @@ flowchart TD
 
     class A,B,C,D,E,F,H,I,J,K,L,M,N process;
     class G decision;
+```
 
 ---
 
