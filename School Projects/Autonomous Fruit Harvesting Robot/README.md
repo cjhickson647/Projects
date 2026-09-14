@@ -98,7 +98,6 @@ Some of the major behaviors included:
 
 ```mermaid
 flowchart TD
-    flowchart TD
     A[Start / IDLE] --> B[RAMP_DRIVE]
     B --> C[SEARCHING]
     C --> D[APPROACHING]
