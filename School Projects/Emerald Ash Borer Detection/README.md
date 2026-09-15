@@ -15,7 +15,10 @@ The project eventually expanded beyond machine learning into embedded computing,
 **Project Dates:** December 2024 – April 2025  
 **Presented At:** Maine State Science Fair
 
-![Project Overview](images/project-overview.jpg)
+<p align="center">
+  <img src="images/science-fair-poster.jpg" width="600">
+</p>
+
 
 ---
 
@@ -48,7 +51,9 @@ The final dataset contained **660 images**:
 
 Sources included iNaturalist, Forestry Images, and the BarkNet dataset.
 
-![Dataset Examples](images/dataset-examples.jpg)
+<p align="center">
+  <img src="images/dataset-examples.jpg" width="650">
+</p>
 
 I wrote a Python script using **scikit-learn** to split the dataset into:
 
@@ -114,7 +119,11 @@ The model used:
 - Early stopping
 - Dynamic learning-rate reduction
 
-![Training Curves](images/training-curves.png)
+<p align="center">
+  <img src="images/training-curves.png" width="650">
+</p>
+
+<p align="center"><em>Training and validation accuracy/loss during MobileNetV2 development.</em></p>
 
 After training and fine-tuning, the network reached approximately:
 
@@ -156,7 +165,11 @@ This resulted in approximately:
 - **92% average recall**
 - **0.92 F1-score**
 
-![Confusion Matrix](images/confusion-matrix.png)
+<p align="center">
+  <img src="images/confusion-matrix.png" width="500">
+</p>
+
+<p align="center"><em>Independent 100-image test-set confusion matrix.</em></p>
 
 The test set provided a more meaningful estimate of performance than training or validation accuracy alone because it was not used during model development.
 
@@ -178,7 +191,11 @@ The embedded system consisted of:
 
 The Raspberry Pi captured images, ran classification locally, and displayed results through a browser-accessible interface.
 
-![Embedded System](images/pi-drone-system.jpg)
+<p align="center">
+  <img src="images/drone-system.jpg" width="600">
+</p>
+
+<p align="center"><em>Raspberry Pi 5, camera, and flight-control hardware integrated onto the drone platform.</em></p>
 
 ---
 
@@ -196,7 +213,11 @@ I created a Flask-based interface that provided:
 
 The Raspberry Pi generated its own local Wi-Fi network using an external network adapter, allowing another device to access the interface without Internet connectivity.
 
-![Web Interface](images/web-interface.png)
+<p align="center">
+  <img src="images/web-interface.png" width="650">
+</p>
+
+<p align="center"><em>Flask interface used to display camera imagery and classification results.</em></p>
 
 This meant the system could operate independently in the field.
 
@@ -226,7 +247,9 @@ I integrated a **UBEC** to step the battery voltage down to 5 V and added a 5 A 
 
 This was also one of my first projects involving substantial soldering and electrical integration.
 
-![Power Electronics](images/power-system.jpg)
+<p align="center">
+  <img src="images/power-system.jpg" width="600">
+</p>
 
 ---
 
@@ -249,7 +272,9 @@ At one point I rebuilt the drone using another frame, motors, and ESCs in an att
 
 The breakthrough came after replacing the flight controller. With the replacement controller installed, the drone finally flew successfully.
 
-![Drone Flight Test](images/drone-flight.jpg)
+<p align="center">
+  <img src="images/drone-flight.jpg" width="600">
+</p>
 
 The system was later able to fly with the Raspberry Pi and camera payload installed.
 
@@ -277,7 +302,11 @@ I collected roughly **10 images per tree at multiple heights**.
 
 The system classified all tested trees as healthy, with average confidence values ranging from approximately **84–89%**.
 
-![Ash Tree Field Testing](images/field-testing.jpg)
+<p align="center">
+  <img src="images/field-testing.jpg" width="600">
+</p>
+
+<p align="center"><em>Ash-tree field testing in Portland, Maine.</em></p>
 
 Because I was unable to locate confirmed infected trees, this field test could not independently validate EAB detection performance in real-world infected trees.
 
