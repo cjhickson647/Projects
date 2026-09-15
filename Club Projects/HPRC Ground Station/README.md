@@ -147,13 +147,13 @@ I successfully established:
 <table>
   <tr>
     <td align="center">
-      <img src="images/test-launch-antenna.jpg" width="280">
+      <img src="images/antenna.jpg" width="280">
     </td>
     <td align="center">
-      <img src="images/test-launch-telemetry.jpg" width="280">
+      <img src="images/laptop.jpg" width="280">
     </td>
     <td align="center">
-      <img src="images/test-launch-video-frame.jpg" width="280">
+      <img src="images/rocket_video.jpg" width="280">
     </td>
   </tr>
   <tr>
