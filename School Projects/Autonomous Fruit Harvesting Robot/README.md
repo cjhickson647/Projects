@@ -292,7 +292,7 @@ The project significantly improved my understanding of PID control, finite-state
 
 The original project source code is available here:
 
-[View the RBE 1001 robot code](https://github.com/cjhickson647/billy-rbe1001/src/autonomous_controller.py)
+[View the RBE 1001 robot code](https://github.com/cjhickson647/billy-rbe1001/blob/main/src/autonomous_controller.py)
 
 The final autonomous program is primarily contained in:
 
