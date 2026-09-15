@@ -13,9 +13,11 @@ Rather than designing the tracker architecture from scratch, my work focused on 
 **Start Date:** May 2026  
 **Status:** Ongoing
 
-![Completed Tracker](images/completed-tracker.jpg)
+<p align="center">
+  <img src="images/completed-tracker.jpg" width="750">
+</p>
 
-*Completed motorized equatorial camera tracker.*
+<p align="center"><em>Completed motorized equatorial camera tracker.</em></p>
 
 ---
 
@@ -62,24 +64,33 @@ The tracker structure relies heavily on large FDM-printed components.
 
 Before I could begin printing the main parts, my Bambu Lab P1S developed a motor-control-board failure. I replaced the control board, installed additional heatsinking, and secured the repair before continuing the project.
 
-![P1S MC Board](images/mcboard.jpg)
+<p align="center">
+  <img src="images/mcboard.jpg" width="500">
+</p>
 
-*Newly replaced motor control board for the P1S.*
+<p align="center"><em>Replacement motor-control board installed in the Bambu Lab P1S before fabrication.</em></p>
 
 Once the printer was operational, I printed the tracker components using reinforced print settings intended to provide sufficient stiffness and strength for the large rotating assemblies.
 
-![Right Ascension Assembly](images/ra-assembly.jpg)
+<p align="center">
+  <img src="images/ra-assembly.jpg" width="600">
+</p>
 
-*Right ascension assembly during fabrication.*
+<p align="center"><em>Right ascension assembly during fabrication.</em></p>
 
 The right ascension ring was printed in multiple sections and assembled around the bearing and belt-drive system. The declination assembly was then fabricated and integrated with the rest of the structure.
 
 I also designed several small custom parts in **Onshape** to improve the physical setup and assist with manual polar alignment.
 
-![Custom Onshape Part](images/onshape-render.png)
-![Printed Product](images/support.jpg)
+<p align="center">
+  <img src="images/onshape-render.png" width="420">
+  <img src="images/support.jpg" width="420">
+</p>
 
-*Example of a custom component designed in Onshape and then printed.*
+<p align="center">
+  <em>Custom Onshape support design and the corresponding 3D-printed part.</em>
+</p>
+
 
 ---
 
@@ -99,9 +110,11 @@ Some of the major mechanical challenges included:
 - Creating a stable mounting system for the camera
 - Improving manual polar-alignment adjustment
 
-![Tracker Mechanical Assembly](images/mechanical-assembly.jpg)
+<p align="center">
+  <img src="images/mechanical-assembly.jpg" width="600">
+</p>
 
-*Mechanical assembly of the tracker.*
+<p align="center"><em>Mechanical assembly of the tracker.</em></p>
 
 ---
 
@@ -117,7 +130,11 @@ One of the more time-consuming parts of the build was correcting the motor wirin
 
 I also adapted the LCD connection using a ribbon-to-jumper interface so that the display could be connected correctly to the control board.
 
-![Electronics](images/electronics.jpg)
+<p align="center">
+  <img src="images/electronics.jpg" width="550">
+</p>
+
+<p align="center"><em>Motor-control electronics and wiring for the tracker.</em></p>
 
 *Motor-control electronics and wiring.*
 
@@ -162,9 +179,11 @@ The completed system successfully tracked the sky during long-exposure astrophot
 
 I captured and stacked more than **20 minutes of tracked astronomical exposure data**, demonstrating that the system could maintain usable tracking over extended imaging sessions.
 
-![Tracked Astrophotography Result](images/first_light.jpeg)
+<p align="center">
+  <img src="images/first_light.jpeg" width="750">
+</p>
 
-*Astrophotography result captured using the completed tracker.*
+<p align="center"><em>Tracked astrophotography result captured using the completed system.</em></p>
 
 This was the most important validation step for the project because it demonstrated that the tracker functioned as an integrated system rather than simply moving correctly on a workbench.
 
