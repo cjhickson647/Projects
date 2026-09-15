@@ -73,7 +73,7 @@ My work included:
 
 I worked with another electronics member to assemble the front side of the board and later populated the back side independently.
 
-![MARS PCB](images/mars-board.jpg)
+![MARS PCB](images/mars.png)
 
 One particularly difficult component was a very small BGA123 sensor package. After working with the component during assembly, I began looking for a larger alternative that would be easier to integrate and manufacture.
 
@@ -92,8 +92,9 @@ For an alternate sensor, I created:
 
 The design was later refined by another electronics member, but this was my first experience taking a component from datasheet-level information into an actual PCB library and board design.
 
-![Altium Sensor Integration](images/altium-sensor.png)
+![Altium Sensor Integration](images/bga524.png)
 
+![PCB Location](images/bga-pcb.png)
 ---
 
 ## Wiring Harness Fabrication
@@ -125,7 +126,9 @@ I successfully established:
 - **222 MHz telemetry reception**
 - **1.3 GHz live-video reception**
 
-![Test Launch Ground Station](images/test-launch-ground-station.jpg)
+![Test Launch Ground Station](images/antenna.jpg)
+![Test Launch Pt 2](images/laptop.jpg)
+![Test Launch Pt 3](images/rocket_video.jpg)
 
 This was one of the first times I operated the complete system independently in a real launch environment.
 
