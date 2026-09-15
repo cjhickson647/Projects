@@ -82,7 +82,7 @@ My work included:
 I worked with another electronics member to assemble the front side of the board and later populated the back side independently.
 
 <p align="center">
-  <img src="images/mars-board-render.png" width="650">
+  <img src="images/mars.png" width="650">
 </p>
 
 <p align="center"><em>3D rendering of the MARS flight-electronics PCB.</em></p>
@@ -144,23 +144,24 @@ I successfully established:
 - **222 MHz telemetry reception**
 - **1.3 GHz live-video reception**
 
-<p align="center">
-  <img src="images/antenna.jpg" width="600">
-</p>
-
-<p align="center"><em>Ground antenna deployed during a test launch.</em></p>
-
-<p align="center">
-  <img src="images/laptop.jpg" width="600">
-</p>
-
-<p align="center"><em>Ground-station laptop receiving live GPS and telemetry data.</em></p>
-
-<p align="center">
-  <img src="images/rocket_video.jpg" width="600">
-</p>
-
-<p align="center"><em>Frame from the 1.3 GHz live-video feed received from the rocket during flight.</em></p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/test-launch-antenna.jpg" width="280">
+    </td>
+    <td align="center">
+      <img src="images/test-launch-telemetry.jpg" width="280">
+    </td>
+    <td align="center">
+      <img src="images/test-launch-video-frame.jpg" width="280">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><em>Ground antenna</em></td>
+    <td align="center"><em>Live GPS / telemetry</em></td>
+    <td align="center"><em>Received 1.3 GHz video</em></td>
+  </tr>
+</table>
 
 This was one of the first times I operated the complete system independently in a real launch environment.
 
