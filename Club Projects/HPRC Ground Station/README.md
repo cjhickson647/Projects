@@ -16,7 +16,11 @@ The current goal is to create a ground station capable of receiving both live vi
 **Project Dates:** August 2025 – Present  
 **Competition:** 2027 International Rocket Engineering Competition
 
-![Ground Station](images/ground-station.jpg)
+<p align="center">
+  <img src="images/ground-station.jpg" width="750">
+</p>
+
+<p align="center"><em>Ground Station hardware deployed during launch operations.</em></p>
 
 ---
 
@@ -49,7 +53,11 @@ The tracker used two motorized axes to control azimuth and elevation, allowing d
 
 My role was primarily supporting the tracker effort through assembly, testing, troubleshooting, and design-review preparation rather than serving as the primary designer.
 
-![Antenna Tracker](images/antenna-tracker.jpg)
+<p align="center">
+  <img src="images/antenna-tracker.jpg" width="625">
+</p>
+
+<p align="center"><em>Motorized azimuth/elevation antenna tracker used for directional ground antennas.</em></p>
 
 I also helped present Ground Station work during the team's Preliminary Design Review and Critical Design Review.
 
@@ -73,7 +81,11 @@ My work included:
 
 I worked with another electronics member to assemble the front side of the board and later populated the back side independently.
 
-![MARS PCB](images/mars.png)
+<p align="center">
+  <img src="images/mars-board-render.png" width="650">
+</p>
+
+<p align="center"><em>3D rendering of the MARS flight-electronics PCB.</em></p>
 
 One particularly difficult component was a very small BGA123 sensor package. After working with the component during assembly, I began looking for a larger alternative that would be easier to integrate and manufacture.
 
@@ -92,9 +104,15 @@ For an alternate sensor, I created:
 
 The design was later refined by another electronics member, but this was my first experience taking a component from datasheet-level information into an actual PCB library and board design.
 
-![Altium Sensor Integration](images/bga524.png)
+<p align="center">
+  <img src="images/bga524.png" width="420">
+  <img src="images/bga-pcb.png" width="420">
+</p>
 
-![PCB Location](images/bga-pcb.png)
+<p align="center">
+  <em>Custom sensor schematic/footprint work and corresponding PCB integration.</em>
+</p>
+
 ---
 
 ## Wiring Harness Fabrication
@@ -126,9 +144,23 @@ I successfully established:
 - **222 MHz telemetry reception**
 - **1.3 GHz live-video reception**
 
-![Test Launch Ground Station](images/antenna.jpg)
-![Test Launch Pt 2](images/laptop.jpg)
-![Test Launch Pt 3](images/rocket_video.jpg)
+<p align="center">
+  <img src="images/antenna.jpg" width="600">
+</p>
+
+<p align="center"><em>Ground antenna deployed during a test launch.</em></p>
+
+<p align="center">
+  <img src="images/laptop.jpg" width="600">
+</p>
+
+<p align="center"><em>Ground-station laptop receiving live GPS and telemetry data.</em></p>
+
+<p align="center">
+  <img src="images/rocket_video.jpg" width="600">
+</p>
+
+<p align="center"><em>Frame from the 1.3 GHz live-video feed received from the rocket during flight.</em></p>
 
 This was one of the first times I operated the complete system independently in a real launch environment.
 
@@ -233,7 +265,13 @@ The link budget considers:
 
 The system is being analyzed for a design range of approximately **50,000–60,000 ft**.
 
-![Link Budget](images/link-budget.png)
+<p align="center">
+  <img src="images/link-budget.png" width="850">
+</p>
+
+<p align="center">
+  <em>Example telemetry link-budget analysis from the 2025–2026 Ground Station system.</em>
+</p>
 
 I am also studying antenna behavior and selection for both the rocket and ground systems.
 
