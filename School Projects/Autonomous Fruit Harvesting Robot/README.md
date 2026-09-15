@@ -219,12 +219,10 @@ The autonomous system was not perfectly consistent. Alignment errors occasionall
 However, the final robot could consistently complete meaningful portions of the autonomous harvesting-and-delivery cycle and demonstrated successful integration of perception, feedback control, and state-based autonomous behavior.
 
 <p align="center">
-  <img src="images/final-field-test.jpg" width="650">
+  <img src="images/field-test.jpg" width="650">
 </p>
 
 <p align="center"><em>Final field testing with two collected fruit while approaching another target.</em></p>
-
-*Robot with two collected fruit collecting one more on the final RBE 1001 field.*
 
 ---
 
