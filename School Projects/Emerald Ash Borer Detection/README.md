@@ -16,7 +16,7 @@ The project eventually expanded beyond machine learning into embedded computing,
 **Presented At:** Maine State Science Fair
 
 <p align="center">
-  <img src="images/science-fair-poster.jpg" width="600">
+  <img src="images/project-overview.jpg" width="600">
 </p>
 
 
