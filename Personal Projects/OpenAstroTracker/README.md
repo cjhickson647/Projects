@@ -82,10 +82,10 @@ The right ascension ring was printed in multiple sections and assembled around t
 
 I also designed several small custom parts in **Onshape** to improve the physical setup and assist with manual polar alignment.
 
-<p align="center">
-  <img src="images/onshape-render.png" width="420">
-  <img src="images/support.jpg" width="420">
-</p>
+<div align="center">
+  <img src="images/onshape-render.png" height="360">
+  <img src="images/support.jpg" height="360">
+</div>
 
 <p align="center">
   <em>Custom Onshape support design and the corresponding 3D-printed part.</em>
