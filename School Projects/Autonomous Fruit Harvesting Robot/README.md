@@ -12,7 +12,11 @@ My primary contribution was the robot's autonomous software and control system. 
 **Institution:** Worcester Polytechnic Institute  
 **Project Dates:** March 2026 – May 2026
 
-![Final Robot](images/final-robot.png)
+<p align="center">
+  <img src="images/final-robot.png" width="750">
+</p>
+
+<p align="center"><em>Final autonomous fruit-harvesting robot.</em></p>
 
 *Final fruit-harvesting robot.*
 
@@ -45,7 +49,10 @@ The original drivetrain was replaced with a four-wheel-drive configuration using
 
 The drivetrain also used screw-joint-mounted drive components in several locations to reduce friction and improve mechanical reliability.
 
-![Robot Drivetrain](images/drivetrain.jpg)
+<p align="center">
+  <img src="images/drivetrain.jpg" width="550">
+</p>
+
 
 ### Fruit Grabber
 
@@ -53,7 +60,11 @@ The end effector used two interlocking claws designed to close around fruit of d
 
 The original claw mechanism relied heavily on gears, but repeated gear skipping caused reliability problems. The team redesigned the mechanism around sprockets and chain while retaining gears to synchronize the two sides.
 
-![Fruit Grabber](images/grabber.png)
+<p align="center">
+  <img src="images/grabber.png" width="550">
+</p>
+
+<p align="center"><em>Interlocking claw mechanism used to harvest fruit.</em></p>
 
 ### Elevator
 
@@ -61,7 +72,9 @@ An elevator allowed the grabber to reach fruit at multiple heights.
 
 The mechanism eventually used two motors driving rack-and-pinion systems. Mechanical stops were also added to prevent the elevator from overextending and damaging itself.
 
-![Elevator](images/IMG_8665.jpg)
+<p align="center">
+  <img src="images/elevator.jpg" width="550">
+</p>
 
 ### Hopper
 
@@ -69,7 +82,9 @@ A lightweight hopper was added after testing revealed that carrying fruit in the
 
 The hopper allowed the robot to store multiple pieces of fruit before reaching the drop-off location. A motorized pivoting floor allowed the robot to deposit the stored fruit into a basket.
 
-![Fruit Hopper](images/hopper.jpg)
+<p align="center">
+  <img src="images/hopper.jpg" width="550">
+</p>
 
 ---
 
@@ -203,7 +218,11 @@ The autonomous system was not perfectly consistent. Alignment errors occasionall
 
 However, the final robot could consistently complete meaningful portions of the autonomous harvesting-and-delivery cycle and demonstrated successful integration of perception, feedback control, and state-based autonomous behavior.
 
-![Robot Field Test](images/field-test.jpg)
+<p align="center">
+  <img src="images/final-field-test.jpg" width="650">
+</p>
+
+<p align="center"><em>Final field testing with two collected fruit while approaching another target.</em></p>
 
 *Robot with two collected fruit collecting one more on the final RBE 1001 field.*
 
